@@ -30,7 +30,7 @@ export class PainelComponent implements OnInit {
 
   public verificarResposta():void {
     if(this.rodadaFrase.frasePtBr == this.resposta){
-      alert('A tradução está correta!')
+    alert('A tradução está correta!')
     this.rodada++
     this.progresso = this.progresso + (100/this.frases.length)
     this.atualizarRodada()
