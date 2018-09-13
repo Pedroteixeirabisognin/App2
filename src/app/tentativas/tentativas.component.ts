@@ -12,6 +12,7 @@ export class TentativasComponent implements OnInit {
   
   public coracoes: Array<Coracao> = new Array(new Coracao(true),new Coracao(true),new Coracao(true))
   
+  
   constructor() { 
     console.log(this.coracoes);
     
