@@ -8,8 +8,9 @@ import {FRASES} from './frases-mock';
 })
 export class PainelComponent implements OnInit {
   public frases: Array<Frase> = FRASES
-  constructor() {console.log(this.frases);
-   }
+  constructor() {console.log(this.frases);}
+
+  public instrucao:string = 'Traduza a frase'
 
   ngOnInit() {
   }
