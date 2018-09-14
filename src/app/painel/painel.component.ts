@@ -36,7 +36,7 @@ export class PainelComponent implements OnInit {
     this.atualizarRodada()
     
     }else{
-      if(this.tentativas === -1){
+      if(this.tentativas === 0){
         alert('Você perdeu o jogo')
       }
       this.tentativas--

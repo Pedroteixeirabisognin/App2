@@ -23,6 +23,12 @@ export class TentativasComponent implements OnInit,OnChanges {
   }
   //É executado na alteração de valores de componentes pais para componentes filhos
   ngOnChanges(): void {
+    if (this.tentativas !== this.coracoes.length) {
+      let indice = this.coracoes.length - this.tentativas
+      
+      this.coracoes[indice-1].cheio = false
+
+    }
     console.log('Tentativas restantes: ', this.tentativas);
 
   }
