@@ -50,8 +50,6 @@ export class PainelComponent implements OnInit,OnDestroy {
   }
   
   ngOnDestroy(): void {
-    console.log('Painel foi destruido')
-    
   }
   
   public atualizarRodada():void {
